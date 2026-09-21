@@ -31,7 +31,6 @@
 
   # The list of segments shown on the left. Fill it with the most important segments.
   typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-    os_icon                 # os identifier (Unicode, not Nerd Font)
     dir                     # current directory
     vcs                     # git status
     command_execution_time  # duration of the last command (left = stays visible)
