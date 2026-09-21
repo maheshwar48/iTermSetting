@@ -1,0 +1,22 @@
+{
+    "workbench.preferredDarkColorTheme": "Darcula",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Darcula",
+    "editor.fontFamily": "Ubuntu, Menlo, sans-serif",
+    "editor.fontSize": 15,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "files.associations": {
+        "*.gradle": "groovy",
+        "*.gradle.kts": "kotlin",
+        "gradle.properties": "properties",
+        "*.properties": "properties"
+    },
+    "terminal.integrated.fontFamily": "UbuntuMonoNerdFontMono-Regular, 'UbuntuMono Nerd Font Mono', 'Ubuntu Mono', monospace",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.lineHeight": 1.2,
+    "debug.console.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "java.semanticHighlighting.enabled": true
+}

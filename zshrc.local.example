@@ -1,0 +1,15 @@
+# Copy to ~/.zshrc.local (install.sh does this once). Not committed to git.
+# Add per-machine aliases, env vars, and completions here.
+
+# Example: personal aliases from cloud sync
+# source ~/googledrive/MySettings/AllAlias.sh
+
+# Example: Java
+# export JAVA_HOME=$(/usr/libexec/java_home -v 25)
+
+# Example: CLI completions (adjust paths)
+# autoload -U +X bashcompinit && bashcompinit
+# complete -o nospace -C /opt/homebrew/bin/boundary boundary
+
+# Example: work MCP / tokens — never commit real secrets
+# [[ -f ~/.token_prod ]] && export TOKEN_PROD=...

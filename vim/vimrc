@@ -1,0 +1,27 @@
+" Syntax + file types (Java, Groovy/Gradle, properties, etc.)
+syntax enable
+filetype plugin indent on
+
+set number
+set relativenumber
+set autoindent
+set tabstop=4 shiftwidth=4 expandtab smarttab
+set encoding=utf-8
+set backspace=indent,eol,start
+set wildmenu
+set hlsearch
+set incsearch
+set ignorecase smartcase
+
+if has('termguicolors')
+  set termguicolors
+endif
+
+augroup filetypes
+  autocmd!
+  autocmd BufRead,BufNewFile *.gradle set filetype=groovy
+  autocmd BufRead,BufNewFile *.gradle.kts set filetype=kotlin
+  autocmd BufRead,BufNewFile gradle.properties,*.properties set filetype=properties
+augroup END
+
+colorscheme darcula
